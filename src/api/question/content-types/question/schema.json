@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "questionText": {
+      "type": "richtext"
+    },
+    "questionType": {
+      "type": "enumeration",
+      "enum": [
+        "Multiple Choice",
+        "True/False",
+        "Open-ended"
+      ]
+    },
+    "options": {
+      "type": "json"
+    },
+    "correctAnswer": {
+      "type": "json"
+    },
+    "difficultyLevel": {
+      "type": "enumeration",
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quiz": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quiz.quiz",
+      "inversedBy": "questions"
+    },
+    "timeLimit": {
+      "type": "integer"
+    }
+  }
+}
