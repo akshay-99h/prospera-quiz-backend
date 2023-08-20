@@ -59,6 +59,9 @@
     },
     "timeLimit": {
       "type": "integer"
+    },
+    "givenAnswer": {
+      "type": "json"
     }
   }
 }
