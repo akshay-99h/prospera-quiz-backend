@@ -1,57 +1,29 @@
-# 🚀 Getting started with Strapi
+# Prospera Quiz App Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Welcome to the Prospera Quiz App backend repository! This repository contains the backend code for the "Pathways of Prosperity: The Budgeting Chronicles" quiz game.
 
-### `develop`
+## Introduction
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+In the mystical land of Prospera, where magic and technology coexist, young scholars from all walks of life strive to prove their worth at the renowned Academy of Financial Wisdom. This quiz app is an interactive game that aims to teach players about financial literacy and money management through a series of questions and challenges.
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Setup
 
-### `start`
+To get started with the Prospera Quiz App backend, follow these steps:
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+1. Clone this repository to your local machine.
+2. Install the required dependencies using the following command:
+   
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the Strapi application with autoReload enabled for development: 
+    ```bash
+    npm run develop
+    # or
+    yarn develop
+    ```
 
-```
-npm run start
-# or
-yarn start
-```
+4. The Strapi admin panel will be accessible at http://localhost:1337/admin. Here, you can manage questions, user data, and more.
 
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
