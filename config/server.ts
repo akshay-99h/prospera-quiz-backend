@@ -1,5 +1,5 @@
 export default ({ env }) => ({
-  host: env('HOST', 'bespoke-syrniki-422490.netlify.app'),
+  host: env('HOST', 'quiz-app.akshay-99h.codes'),
   port: env.int('PORT', process.env.PORT),
   app: {
     keys: env.array('APP_KEYS'),
