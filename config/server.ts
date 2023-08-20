@@ -1,5 +1,5 @@
 export default ({ env }) => ({
-  host: env('HOST', 'https://my-quiz-app-production.up.railway.app'),
+  host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', process.env.PORT),
   app: {
     keys: env.array('APP_KEYS'),
